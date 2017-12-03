@@ -217,6 +217,7 @@ a:focus{
   width: auto;
   height: 100%;
   cursor: pointer;
+  border: 1px solid #aaa;
 }
 #tf-portfolio .portfolio-item.trim img:hover{
   opacity: 0.5;
@@ -353,13 +354,19 @@ ul.why-me li{
   margin: 10px 0;
 }
 #tf-contact{
-  background: url(../img/08.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
+  background-color: #666;
   padding: 5% 0;
   text-align: center;
+  color: white;
+}
+#tf-contact .contact-list .email {
+  font-size: 120%;
+}
+#tf-contact .contact-list .sns li span {
+  font-size: 120%;
+}
+#tf-contact .contact-list .contact-item {
+  margin-top: 15px;
 }
 
 form#contact {

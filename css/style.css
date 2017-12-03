@@ -177,6 +177,80 @@ a:focus{
   width: 60px;
 }
 
+/*
+#tf-portfolio .portfolios {
+  display: inline-block;
+}
+#tf-portfolio .portfolios img {
+  height: 100%;
+  max-height: 200px;
+}
+*/
+#tf-portfolio .portfolio-item {
+  position: relative;
+}
+
+#tf-portfolio .portfolio-item:before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  right: 50%;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #fff;
+  width: 15px;
+  height: 15px;
+  display: block;
+}
+#tf-portfolio .portfolio-item.trim {
+  overflow: hidden;
+  width: 33.3%;
+  height: 230px;
+  position: relative;
+}
+#tf-portfolio .portfolio-item.trim img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 100%;
+  cursor: pointer;
+}
+#tf-portfolio .portfolio-item.trim img:hover{
+  opacity: 0.5;
+}
+
+#tf-portfolio .portfolio-desc {
+  padding: 34px 0px;
+  background-color: white;
+  margin: 30px 0 10px 0;
+  border: 1px solid #ddd;
+  display: none;
+}
+#tf-portfolio .portfolio-desc .portfolio-desc-item {
+  display: none;
+}
+#tf-portfolio .portfolio-desc table {
+  width: 80%;
+  align-content: center;
+  margin: auto 10%;
+}
+#tf-portfolio .portfolio-desc table th {
+  text-align: center;
+}
+#tf-portfolio .portfolio-desc table .tech img {
+  max-width: 100px;
+  max-height: 50px;
+}
+#tf-portfolio .portfolio-desc table a {
+  color: #ab363b;
+}
+#tf-portfolio .portfolio-desc table a:hover {
+  opacity: 0.5;
+}
+
 .section-title h2{ font-weight: 700;}
 button.btn,
 a.btn {

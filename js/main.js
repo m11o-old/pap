@@ -27,6 +27,25 @@ $(function () {
     });
   });
 
+  $("#tf-portfolio .portfolio-item.trim img").click(function() {
+    var item_name = $(this).parent().data("item-name");
+
+    var portfolio_desc = $(this).parents(".portfolios").next();
+
+    var _target = portfolio_desc.find(".portfolio-desc-item." + item_name);
+    portfolio_desc.slideUp("slow", function() {
+      _target.siblings().hide();
+
+      if (_target.css("display") == 'none') {
+        portfolio_desc.slideDown("show");
+        _target.show();
+      } else {
+        portfolio_desc.slideUp("slow");
+        _target.hide();
+      }
+    });
+  });
+
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);

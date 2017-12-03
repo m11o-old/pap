@@ -1,186 +1,310 @@
-<!DOCTYPE HTML>
-<!--
-  Stellar by HTML5 UP
-  html5up.net | @ajlkn
-  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>OSAKO MASAHITO PORTFOLIO</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rubyエンジニアのポートフォリオ</title>
+    <meta name="description" content="Rubyエンジニアのポートフォリオ">
+    <meta name="keywords" content="ruby, portfolio, ruby on rails, engineer">
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <div id="tf-home">
+        <div class="overlay">
+            <div id="sticky-anchor"></div>
+            <nav id="tf-menu" class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
 
-    <!-- Wrapper -->
-      <div id="wrapper">
-
-        <!-- Header -->
-          <header id="header" class="alt">
-            <span class="logo"><img src="images/logo.svg" alt="" /></span>
-            <h1>OSAKO MASAHITO PORTFOLIO</h1>
-            <p>Just another free, fully responsive site template<br />
-            built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
-          </header>
-
-        <!-- Nav -->
-          <nav id="nav">
-            <ul>
-              <li><a href="#intro" class="active">Introduction</a></li>
-              <li><a href="#first">First Section</a></li>
-              <li><a href="#second">Second Section</a></li>
-              <li><a href="#cta">Get Started</a></li>
-            </ul>
-          </nav>
-
-        <!-- Main -->
-          <div id="main">
-
-            <!-- Introduction -->
-              <section id="intro" class="main">
-                <div class="spotlight">
-                  <div class="content">
-                    <header class="major">
-                      <h2>Ipsum sed adipiscing</h2>
-                    </header>
-                    <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                    adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                    Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
-                    <ul class="actions">
-                      <li><a href="generic.html" class="button">Learn More</a></li>
-                    </ul>
-                  </div>
-                  <span class="image"><img src="images/pic01.jpg" alt="" /></span>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#tf-home">Home</a></li>
+                        <li><a href="#tf-intro">Introduction</a></li>
+                        <li><a href="#tf-portfolio">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#tf-contact">Contact</a></li>
+                      </ul>
+                    </div>
                 </div>
-              </section>
+            </nav>
 
-            <!-- First Section -->
-              <section id="first" class="main special">
-                <header class="major">
-                  <h2>Magna veroeros</h2>
-                </header>
-                <ul class="features">
-                  <li>
-                    <span class="icon major style1 fa-code"></span>
-                    <h3>Ipsum consequat</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                  </li>
-                  <li>
-                    <span class="icon major style3 fa-copy"></span>
-                    <h3>Amed sed feugiat</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                  </li>
-                  <li>
-                    <span class="icon major style5 fa-diamond"></span>
-                    <h3>Dolor nullam</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                  </li>
+            <div class="container">
+                <div class="content">
+                    <h1 class="page-title">Masahito Osako's Portfolio</h1>
+                    <h3>Rubyをこよなく愛するエンジニア</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tf-intro">
+        <div class="container">
+            <div class="section-title">
+                <h3>Introduction</h3>
+                <hr>
+            </div>
+
+            <div class="space"></div>
+
+            <div class="col-md-6">
+                <div class="media">
+                    <div class="media-body">
+                        <div class="intro-thumb trim col-md-5">
+                            <img src="img/intro-thumb.jpg" alt="サムネイル">
+                        </div>
+                        <div class="intro-messages col-md-7">
+                            <p>名前: 大迫雅仁</p>
+                            <p>
+                                はじめまして、Rubyをこよなく愛するエンジニアの大迫雅仁と申します。
+                                <br>
+                                現在、九州大学を休学し、株式会社kabukiにインターンとして勤務しており、Rubyをメイン言語としてWebアプリを自社開発。
+                                サーバーサイドとフロントサイドの両方にコミットしています。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="intro-skils">
+                    <div class="skillbar" data-percent="95">
+                        <span class="skillbar-title" style="background: #b20808;">Ruby</span>
+                        <p class="skillbar-bar" style="background: #fa3d22;"></p>
+                        <span class="skill-bar-percent"></span>
+                    </div>
+                    <div class="skillbar" data-percent="89">
+                        <span class="skillbar-title" style="background: #ea8d16;font-size: 10px;">Ruby on Rails</span>
+                        <p class="skillbar-bar" style="background: #f1b364;"></p>
+                        <span class="skill-bar-percent"></span>
+                    </div>
+                    <div class="skillbar" data-percent="80">
+                        <span class="skillbar-title" style="background: #3c32d3;">Java</span>
+                        <p class="skillbar-bar" style="background: #645cdc;"></p>
+                        <span class="skill-bar-percent"></span>
+                    </div>
+                    <div class="skillbar" data-percent="80">
+                        <span class="skillbar-title" style="background: #30c602;">Android</span>
+                        <p class="skillbar-bar" style="background: #b4f608;"></p>
+                        <span class="skill-bar-percent"></span>
+                    </div>
+                    <div class="skillbar" data-percent="87">
+                        <span class="skillbar-title" style="background: #ac16d3;">MySQL</span>
+                        <p class="skillbar-bar" style="background: #d670f0;"></p>
+                        <span class="skill-bar-percent"></span>
+                    </div>
+                    <div class="skillbar" data-percent="72">
+                        <span class="skillbar-title" style="background: #20211c;">Javascript</span>
+                        <p class="skillbar-bar" style="background: #44453c;"></p>
+                        <span class="skill-bar-percent"></span>
+                    </div>
+                    <div class="skillbar" data-percent="70">
+                        <span class="skillbar-title" style="background: #3a87fa;">HTML/CSS</span>
+                        <p class="skillbar-bar" style="background: #7caffc;"></p>
+                        <span class="skill-bar-percent"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tf-portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h3>Portfolio & Works</h3>
+                <hr>
+            </div>
+
+            <div class="space"></div>
+
+            <div class="row portfolios">
+                <div class="col-md-4 portfolio-item trim" data-item-name="kabukipedir">
+                    <img src="img/kabukipedir.png" class="img-responsive">
+                </div>
+
+                <div class="col-md-4 portfolio-item trim" data-item-name="at-concierge">
+                    <img src="img/at-concierge.png" class="img-responsive">
+                </div>
+
+                <div class="col-md-4 portfolio-item trim" data-item-name="portfolio-site">
+                    <img src="img/portfolio-site.png" class="img-responsive">
+                </div>
+            </div>
+
+            <div class="row portfolio-desc">
+                <div class="portfolio-desc-item kabukipedir">
+                    <h3>kabukiペディア</h3>
+                    <table class="table">
+                        <tbody>
+                            <tr class="url">
+                                <th>URL</th>
+                                <td><a href="https://kabukipedir.com/" target="_blank">https://kabukipedir.com/</a></td>
+                            </tr>
+                            <tr class="code">
+                                <th>ソースコード</th>
+                                <td>非公開</td>
+                            </tr>
+                            <tr class="desc">
+                                <th>説明</th>
+                                <td>
+                                    売り手の思いや気持ちを様々なコンテンツを通して伝えるWebサイト。
+                                    <br>
+                                    サーバーサイドとフロントサイド両方を実装。
+                                </td>
+                            </tr>
+                            <tr class="tech">
+                                <th>使用技術</th>
+                                <td>
+                                    <ul class="list-inline">
+                                        <li><img src="img/bitbucket-logo.png" alt="bitbucket logo"></li>
+                                        <li><img src="img/rails-logo.svg" alt="rails logo"></li>
+                                        <li><img src="img/mysql-logo.png" alt="mysql logo"></li>
+                                        <li><img src="img/html5-logo.png" alt="html logo"></li>
+                                        <li><img src="img/css3-logo.png" alt="css logo"></li>
+                                        <li><img src="img/jquery-logo.svg" alt="jquery logo"></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="portfolio-desc-item at-concierge">
+                    <h3>@Concierge</h3>
+                    <table class="table">
+                        <tbody>
+                            <tr class="url">
+                                <th>URL</th>
+                                <td><a href="https://kabuki-inc.com/" target="_blank">https://kabuki-inc.com/</a></td>
+                            </tr>
+                            <tr class="code">
+                                <th>ソースコード</th>
+                                <td>非公開</td>
+                            </tr>
+                            <tr class="desc">
+                                <th>説明</th>
+                                <td>
+                                    簡単に説明するとkabukiペディアの機能を他者に提供している。
+                                    <br>
+                                    CMSとMAツールを兼ね備え、様々なオプションがあり、テンプレートの変更等も今後実装予定。
+                                    <br>
+                                    設計から開発まで携わり、サーバーサイドとフロントサイド両方を実装。
+                                </td>
+                            </tr>
+                            <tr class="tech">
+                                <th>使用技術</th>
+                                <td>
+                                    <ul class="list-inline">
+                                        <li><img src="img/bitbucket-logo.png" alt="bitbucket logo"></li>
+                                        <li><img src="img/rails-logo.svg" alt="rails logo"></li>
+                                        <li><img src="img/mysql-logo.png" alt="mysql logo"></li>
+                                        <li><img src="img/html5-logo.png" alt="html logo"></li>
+                                        <li><img src="img/css3-logo.png" alt="css logo"></li>
+                                        <li><img src="img/jquery-logo.svg" alt="jquery logo"></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="portfolio-desc-item portfolio-site">
+                    <h3>ポートフォリオサイト</h3>
+                    <table class="table">
+                        <tbody>
+                            <tr class="url">
+                                <th>URL</th>
+                                <td>このサイト</td>
+                            </tr>
+                            <tr class="code">
+                                <th>ソースコード</th>
+                                <td><a href="https://github.com/velonica1997/pap">https://github.com/velonica1997/pap</a></td>
+                            </tr>
+                            <tr class="desc">
+                                <th>説明</th>
+                                <td>
+                                    自分の創作物を載せていくサイト。
+                                    <br>
+                                    今は、全然作品がないが、今後どんどん増やしていきたい。
+                                </td>
+                            </tr>
+                            <tr class="tech">
+                                <th>使用技術</th>
+                                <td>
+                                    <ul class="list-inline">
+                                        <li><img src="img/github-log.png" alt="github logo"></li>
+                                        <li><img src="img/html5-logo.png" alt="html logo"></li>
+                                        <li><img src="img/css3-logo.png" alt="css logo"></li>
+                                        <li><img src="img/jquery-logo.svg" alt="jquery logo"></li>
+                                        <li><img src="img/bootstrap-logo.svg" alt="bootstrap logo"></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tf-contact">
+        <div class="container">
+            <div class="section-title">
+                <h3>Contact</h3>
+                <hr>
+            </div>
+        </div>
+
+        <div class="contact-list">
+            <div class="contact-item email">velonica2227@icloud.com</div>
+            <p class="contact-item">or</p>
+            <div class="contact-item sns">
+                <ul class="list-inline">
+                    <li><a href="https://www.facebook.com/profile.php?id=100010591629174" target="_blank"><span class="fa fa-facebook"></span></a></li>
+                    <li><a href="https://twitter.com/ve_gale_en" target="_blank"><span class="fa fa-twitter"></span></a></li>
+                    <li><a href="https://github.com/velonica1997" target="_blank"><span class="fa fa-github"></span></a></li>
                 </ul>
-                <footer class="major">
-                  <ul class="actions">
-                    <li><a href="generic.html" class="button">Learn More</a></li>
-                  </ul>
-                </footer>
-              </section>
+            </div>
+        </div>
+    </div>
 
-            <!-- Second Section -->
-              <section id="second" class="main special">
-                <header class="major">
-                  <h2>Ipsum consequat</h2>
-                  <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-                  posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-                </header>
-                <ul class="statistics">
-                  <li class="style1">
-                    <span class="icon fa-code-fork"></span>
-                    <strong>5,120</strong> Etiam
-                  </li>
-                  <li class="style2">
-                    <span class="icon fa-folder-open-o"></span>
-                    <strong>8,192</strong> Magna
-                  </li>
-                  <li class="style3">
-                    <span class="icon fa-signal"></span>
-                    <strong>2,048</strong> Tempus
-                  </li>
-                  <li class="style4">
-                    <span class="icon fa-laptop"></span>
-                    <strong>4,096</strong> Aliquam
-                  </li>
-                  <li class="style5">
-                    <span class="icon fa-diamond"></span>
-                    <strong>1,024</strong> Nullam
-                  </li>
+    <nav id="tf-footer">
+        <div class="container">
+            <div class="pull-right"> 
+                <ul class="social-media list-inline">
+                    <li><a href="https://www.facebook.com/profile.php?id=100010591629174" target="_blank"><span class="fa fa-facebook"></span></a></li>
+                    <li><a href="https://twitter.com/ve_gale_en" target="_blank"><span class="fa fa-twitter"></span></a></li>
+                    <li><a href="https://github.com/velonica1997" target="_blank"><span class="fa fa-github"></span></a></li>
                 </ul>
-                <p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-                <footer class="major">
-                  <ul class="actions">
-                    <li><a href="generic.html" class="button">Learn More</a></li>
-                  </ul>
-                </footer>
-              </section>
+            </div>
+        </div>
+    </nav>
 
-            <!-- Get Started -->
-              <section id="cta" class="main special">
-                <header class="major">
-                  <h2>Congue imperdiet</h2>
-                  <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-                  posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-                </header>
-                <footer class="major">
-                  <ul class="actions">
-                    <li><a href="generic.html" class="button special">Get Started</a></li>
-                    <li><a href="generic.html" class="button">Learn More</a></li>
-                  </ul>
-                </footer>
-              </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 
-          </div>
+    <script type="text/javascript" src="js/main.js"></script>
 
-        <!-- Footer -->
-          <footer id="footer">
-            <section>
-              <h2>Aliquam sed mauris</h2>
-              <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-              <ul class="actions">
-                <li><a href="generic.html" class="button">Learn More</a></li>
-              </ul>
-            </section>
-            <section>
-              <h2>Etiam feugiat</h2>
-              <dl class="alt">
-                <dt>Address</dt>
-                <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-                <dt>Phone</dt>
-                <dd>(000) 000-0000 x 0000</dd>
-                <dt>Email</dt>
-                <dd><a href="#">information@untitled.tld</a></dd>
-              </dl>
-              <ul class="icons">
-                <li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
-                <li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
-              </ul>
-            </section>
-            <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-          </footer>
-
-      </div>
-
-    <!-- Scripts -->
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/jquery.scrollex.min.js"></script>
-      <script src="assets/js/jquery.scrolly.min.js"></script>
-      <script src="assets/js/skel.min.js"></script>
-      <script src="assets/js/util.js"></script>
-      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-      <script src="assets/js/main.js"></script>
-
+    <script src="js/skill.bars.jquery.js"></script>
   </body>
 </html>
